@@ -3,6 +3,7 @@ import styled from 'styled-components'
 
 import { color } from 'styles/theme'
 
+
 export const InlineSvg = styled.svg`
   position: absolute;
   top: 0;

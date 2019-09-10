@@ -7,13 +7,6 @@ import { color, fontSize } from 'styles/theme'
 
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
-// import WhenInView from 'components/wheninView'
-
-// const Reveal = styled.div`
-//   opacity: ${props => (props.visible ? '1' : '0')};
-//   transform: translateY(${props => (props.visible ? '0px' : '30px')});
-//   transition: all 1s;
-// `
 
 const Big = styled.span`
   font-size: ${fontSize.f6};
@@ -31,22 +24,18 @@ function About() {
       rightColumn={
         <Fragment>
           <Big>
-            Hi. I'm Gabriel, a UI and UX designer based in&nbsp;Berlin. I bring
-            ideas to life with design and&nbsp;code.
+            Hi, I'm Alex. I'm a full-stack software engineer based in New Hampshire.
           </Big>
           <p>
-            In my work I strive to optimize the aesthetic value and usability of
-            products without losing sight of the technical challenges and
-            limitations.
+            I'm a JavaScript nerd with experience writing code in Python, C/C++, and various other languages. I've worked extensively with developer tools like AWS, Git, Docker, and PostgreSQL.
           </p>
           <p>
-            Currently I'm designing the future of medical infrastructure at{' '}
-            <Link to="/lifetime">LifeTime</Link> and hosting electronic music
-            festivals with <Link to="/kellerkind">Kellerkind</Link>.
+            Currently I'm helping <a href="https://minim.co" target="__blank">Minim</a> build a Managed Wi-Fi solution that makes
+            homes into a more connected and secure place. I'm also collaborating on <Link to="/minim">prauxy</Link>{' '}, a 
+            centralized Spotify queue manager, with <a href="https://markschnabel.com">Mark Schnabel</a>.
           </p>
           <p style={{ marginBottom: 0 }}>
-            Outside of work I'm passionate about my family, climbing and riding
-            all kinds of boards on roads, water and snow.
+            Outside of work I'm into cars, music production, and collecting vintage electronics.
           </p>
         </Fragment>
       }
