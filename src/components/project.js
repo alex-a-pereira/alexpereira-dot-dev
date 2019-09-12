@@ -4,52 +4,47 @@ import media from 'utils/media-queries'
 
 import { fontSize } from 'styles/theme'
 
-const size = 150;
-
-const Image = styled.div`
-  background: white;
-  flex: 0 0 ${size}px;
-  height: ${size}px;
-  margin-right: 40px;
-  border-radius: 8px;
-  margin-top: -28px;
-  ${media.md`
-    margin-left: -28px;
-  `}
+const ImageContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
   ${media.sm`
-    margin-bottom: -20px;
+    margin-right: 30px;
   `}
 `
+
+const SmallImage = styled.img`
+  width: 80px;
+  height: auto;
+`
+
 const ProjectLogo = (props) => {
   return (
-    <Image>
-      <svg
-        width={size}
-        height={size}
-        viewBox="0 0 120 120"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        {props.children}
-      </svg>
-    </Image>
+    <ImageContainer>
+      <SmallImage 
+        src="https://png.pngtree.com/element_pic/17/07/02/8f11de5535d73af22a4e523f10a354f3.jpg" 
+      />
+    </ImageContainer>
   )
 }
 
 const ProjectWrapper = styled.div`
-  margin-bottom: 100px;
+  margin-bottom: 68px;
   display: flex;
-  @media (max-width: 660px) {
-  }
+  justify-content: center;
   &:last-of-type {
     margin-bottom: 0px;
   }
+
+  // desktop
   ${media.sm`
-    flex-wrap: wrap;
-    margin-bottom: 68px;
+    margin-bottom: 100px;
   `}
 `
 
 const Description = styled.div`
+  width: 100%;
   @media (max-width: 660px) {
     margin-top: 32px;
   }
