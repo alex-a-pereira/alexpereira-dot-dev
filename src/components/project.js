@@ -66,7 +66,7 @@ const Abstract = styled.div`
 function Project(props) {
   return (
     <ProjectWrapper>
-      <ProjectLogo>{props.logo}</ProjectLogo>
+      <ProjectLogo />
       <Description>
         <Title>{props.title}</Title>
         <Abstract>{props.abstract}</Abstract>

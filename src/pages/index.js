@@ -1,5 +1,4 @@
 import React from 'react'
-import Breakpoints from 'utils/breakpoints'
 
 import GlobalWrapper from 'components/global-wrapper'
 import Hero from 'components/hero'

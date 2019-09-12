@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 import { color } from 'styles/theme'
 import debounce from 'lodash/debounce'
 
