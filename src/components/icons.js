@@ -55,6 +55,8 @@ export const Glyph = ({ glyph }) => {
           />
         </g>
       )
+    default: 
+      return null;
   }
 }
 

@@ -23,7 +23,7 @@ const ProjectLogo = (props) => {
   return (
     <ImageContainer>
       <SmallImage 
-        src="https://png.pngtree.com/element_pic/17/07/02/8f11de5535d73af22a4e523f10a354f3.jpg" 
+        src={props.src}
       />
     </ImageContainer>
   )
@@ -66,7 +66,7 @@ const Abstract = styled.div`
 function Project(props) {
   return (
     <ProjectWrapper>
-      <ProjectLogo />
+      <ProjectLogo src={props.imgSrc} />
       <Description>
         <Title>{props.title}</Title>
         <Abstract>{props.abstract}</Abstract>

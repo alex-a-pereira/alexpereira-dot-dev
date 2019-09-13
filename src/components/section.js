@@ -19,7 +19,7 @@ const Section = styled.section`
 const Container = styled.div`
   border-top: 1px solid ${color.grey400};
   max-width: 916px;
-  padding: 128px 0;
+  padding: 100px 0;
   ${media.sm`
     padding: 64px 0;
   `}

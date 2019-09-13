@@ -190,7 +190,8 @@ class Header extends React.Component {
         <div>
           <SocialLinks article={this.props.article}>
             <SocialLink
-              href={`mailto:${process.env.GATSBY_EMAIL}`}
+              href={`https://github.com/alex-a-pereira`}
+              target="blank"
               onMouseOver={() => this.showTooltip('github')}
               onMouseLeave={this.hideTooltip}
             >
@@ -198,7 +199,7 @@ class Header extends React.Component {
             </SocialLink>
           
             <SocialLink
-              href="https://dribbble.com/gabdorf"
+              href="https://www.linkedin.com/in/alex-a-pereira/"
               target="blank"
               onMouseOver={() => this.showTooltip('linkedin')}
               onMouseLeave={this.hideTooltip}
@@ -207,7 +208,7 @@ class Header extends React.Component {
             </SocialLink>
 
             <SocialLink
-              href="https://twitter.com/gabdorf"
+              href="https://medium.com/@alexapereira14"
               target="blank"
               onMouseOver={() => this.showTooltip('medium')}
               onMouseLeave={this.hideTooltip}

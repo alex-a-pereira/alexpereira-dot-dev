@@ -1,9 +1,9 @@
-# gabriel-adorf-portfolio
-Gabriel Adorf's personal website
+# alexpereira.dev
 
-Check it out here: [gabrieladorf.com](https://gabrieladorf.com)
+Alex Pereira's personal website
 
-Feel free to build your own portfolio by forking and customizing this page.
-Built with [gatsby](https://github.com/gatsbyjs/gatsby) and [styled components](https://github.com/styled-components/styled-components).
+Check it out here: [alexpereira.dev](https://alexpereira.dev)
 
-DM me on [twitter](https://twitter.com/gabdorf) if you have any questions.
+Thank you to [Gabriel Adorf](https://github.com/gabdorf/gabriel-adorf-portfolio) for allowing forks of his open-source project.
+
+DM Gabriel on [twitter](https://twitter.com/gabdorf) or me on [LinkedIn](https://www.linkedin.com/in/alex-a-pereira/) if you have any questions.

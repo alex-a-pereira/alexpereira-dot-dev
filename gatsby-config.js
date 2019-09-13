@@ -4,7 +4,7 @@ module.exports = {
   siteMetadata: {
     title: `Alex Pereira`,
     description: 'Software Engineer',
-    keywords: 'fruits'
+    keywords: 'software, engineer, software-engineer, software-engineer, react, gatsby, javascript, portfolio, alex, pereira, alex pereira, alex-pereira, alexpereira.dev, http, https'
   },
   plugins: [
     {
@@ -25,7 +25,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: 'UA-107072121-1',
+        trackingId: 'UA-147226021-1',
       },
     },
   ],

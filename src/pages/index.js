@@ -6,7 +6,7 @@ import Section from 'components/section'
 import About from 'components/about'
 import Projects from '../components/projects'
 import Education from 'components/education'
-import Writing from 'components/writing'
+// import Writing from 'components/writing'
 import Footer from 'components/footer'
 import Career from '../components/career';
 
@@ -19,7 +19,7 @@ export default class App extends React.Component {
         <Section id={'career'}><Career /></Section>
         <Section id={'projects'}><Projects /></Section>
         <Section id={'education'}><Education /></Section>
-        <Section><Writing /></Section>
+        {/* <Section><Writing /></Section> */}
         <Footer />
       </GlobalWrapper>
     )

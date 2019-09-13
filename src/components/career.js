@@ -4,6 +4,8 @@ import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
 import Project from 'components/project'
 
+import minimLogo from 'img/logos/minim.png'
+
 function Career() {
   return (
     <TwoColumns
@@ -13,8 +15,9 @@ function Career() {
         <Fragment>
           <Project
             title="Minim"
-            abstract="An AI-driven WiFi management and IoT security platform for service providers."
+            abstract="Full-stack software engineer. Minim is an AI-driven WiFi management and IoT security platform for internet service providers."
             link={<a href="https://www.minim.co/solutions/whole-home-wifi">Learn more</a>}
+            imgSrc={minimLogo}
           />
         </Fragment>
       }

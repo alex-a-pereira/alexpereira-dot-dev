@@ -19,10 +19,11 @@ function Footer() {
   return (
     <Section>
       <FooterText>
-        This page is open source, Check it out on&nbsp;
-        <a href="https://github.com/gabdorf/gabriel-adorf-portfolio">Github</a>
-        <br />© 2019 Gabriel Adorf&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-        <a href="/imprint">Imprint</a>
+        Alex Pereira - Software Engineer
+      </FooterText>
+      <div style={{marginBottom: '12px'}} />
+      <FooterText>
+        This open source project was forked from <a href="https://github.com/gabdorf/gabriel-adorf-portfolio">Gabriel Adorf</a>
       </FooterText>
     </Section>
   )
