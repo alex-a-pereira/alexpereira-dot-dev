@@ -10,3 +10,4 @@ yarn.lock
 portfolio.code-workspace
 .netlify/
 .env.development
+.vscode/
