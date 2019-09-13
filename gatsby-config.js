@@ -28,5 +28,36 @@ module.exports = {
         trackingId: 'UA-147226021-1',
       },
     },
+    {
+      resolve: `gatsby-plugin-favicon`,
+      options: {
+        logo: path.join(__dirname, 'src/img/favicon.png'),
+  
+        // WebApp Manifest Configuration
+        appName: null, // Inferred with your package.json
+        appDescription: 'Alex Pereira personal website',
+        developerName: 'Alex Pereira',
+        developerURL: 'https://github.com/alex-a-pereira',
+        dir: 'auto',
+        lang: 'en-US',
+        background: '#fff',
+        theme_color: '#fff',
+        display: 'standalone',
+        orientation: 'any',
+        start_url: 'https://alexpereira.dev',
+        version: '1.0',
+  
+        icons: {
+          android: true,
+          appleIcon: true,
+          appleStartup: true,
+          coast: false,
+          favicons: true,
+          firefox: true,
+          yandex: false,
+          windows: false
+        }
+      }
+    }
   ],
 }

@@ -1,12 +1,13 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "alexpereira.dev",
+  "description": "Alex Pereira personal portfolio",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Alex Pereira <alexapereira14@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.4.2",
     "gatsby-link": "^2.1.1",
+    "gatsby-plugin-favicon": "^3.1.6",
     "gatsby-plugin-google-analytics": "^2.0.19",
     "gatsby-plugin-react-helmet": "^3.0.12",
     "gatsby-plugin-styled-components": "^3.0.7",
