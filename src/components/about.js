@@ -1,5 +1,4 @@
 import React, { Fragment } from 'react'
-import Link from 'gatsby-link'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 
@@ -32,7 +31,6 @@ function About() {
           <p>
             Currently I'm helping <a href="https://minim.co" target="__blank">Minim</a> build a Managed Wi-Fi solution that makes
             homes into a more connected and secure place. 
-            {/* I'm also collaborating on <Link to="/minim">prauxy</Link>{' '}, a centralized Spotify queue manager, with <a href="https://markschnabel.com">Mark Schnabel</a>. */}
           </p>
           <p style={{ marginBottom: 0 }}>
             Outside of work I'm into cars, music production, and collecting vintage electronics.

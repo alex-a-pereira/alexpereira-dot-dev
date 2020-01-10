@@ -7,6 +7,7 @@ import Project from 'components/project'
 
 import hpLogo from 'img/logos/hp.png'
 import vpinLogo from 'img/logos/vpin.png'
+import afPianoLogo from 'img/logos/af-piano.png'
 
 function Work() {
   return (
@@ -15,10 +16,16 @@ function Work() {
       leftColumn={<SectionHeading>Projects</SectionHeading>}
       rightColumn={
         <Fragment>
+          <Project 
+            title="Alternate Frequency Piano"
+            abstract="Experimental piano-player for playing with atypical-frequency tunings."
+            link={<a href="https://alternativepiano.com"  target="_blank" rel="noopener noreferrer">Play the piano</a>}
+            imgSrc={afPianoLogo}
+            />
           <Project
             title="hackerpile"
-            abstract='Cloud storage for your small scripts. Like a Google Docs thats optimized for code.'
-            link={<a href="https://hackerpile.com">Check out hackerpile</a>}
+            abstract="Cloud storage for your small scripts. Like a Google Docs that's optimized for code."
+            link={<a href="http://hackerpile.com" target="_blank" rel="noopener noreferrer">Check out hackerpile</a>}
             imgSrc={hpLogo}
           />
 
