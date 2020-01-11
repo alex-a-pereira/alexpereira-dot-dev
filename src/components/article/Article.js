@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import media from 'utils/media-queries';
 
 import GlobalWrapper from '../GlobalWrapper';
-import ArticleHeader from './header';
+import ArticleHeader from './ArticleHeader';
 import {Footer} from '../shared/Footer';
 
 const Section = styled.section`
