@@ -16,7 +16,7 @@ const Big = styled.span`
   `}
 `
 
-function About() {
+export const About = () => {
   return (
     <TwoColumns
       leftColumn={<SectionHeading>About</SectionHeading>}
@@ -39,6 +39,4 @@ function About() {
       }
     />
   )
-}
-
-export default About
+};

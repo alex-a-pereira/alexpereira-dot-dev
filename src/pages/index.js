@@ -3,11 +3,11 @@ import React from 'react'
 import GlobalWrapper from 'components/global-wrapper'
 import Hero from 'components/hero'
 import {Section} from '../components/section'
-import About from '../components/sections/about'
-import Projects from '../components/sections/projects'
-import Education from '../components/sections/education'
+import {About} from '../components/sections/About'
+import {Projects} from '../components/sections/Projects'
+import {Education} from '../components/sections/Education'
+import {Career} from '../components/sections/Career';
 import Footer from 'components/footer'
-import Career from '../components/sections/career';
 
 export default class App extends React.Component {
   render() {

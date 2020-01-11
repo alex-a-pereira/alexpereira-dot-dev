@@ -7,7 +7,7 @@ import { ContentRow } from '../ContentRow'
 import umlLogo from 'img/logos/uml.png'
 import nccLogo from 'img/logos/ncc.png'
 
-function Education() {
+export const Education = () => {
   return (
     <TwoColumns
       wide
@@ -28,6 +28,4 @@ function Education() {
       }
     />
   )
-}
-
-export default Education
+};

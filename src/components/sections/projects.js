@@ -9,7 +9,7 @@ import hpLogo from 'img/logos/hp.png'
 import vpinLogo from 'img/logos/vpin.png'
 import afPianoLogo from 'img/logos/af-piano.png'
 
-function Work() {
+export const Projects = () => {
   return (
     <TwoColumns
       wide
@@ -39,6 +39,4 @@ function Work() {
       }
     />
   )
-}
-
-export default Work
+};

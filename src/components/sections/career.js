@@ -6,7 +6,7 @@ import { ContentRow } from 'components/ContentRow'
 
 import minimLogo from 'img/logos/minim.png'
 
-function Career() {
+export const Career = () => {
   return (
     <TwoColumns
       wide
@@ -23,6 +23,4 @@ function Career() {
       }
     />
   )
-}
-
-export default Career
+};
