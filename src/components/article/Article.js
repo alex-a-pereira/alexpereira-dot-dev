@@ -4,7 +4,6 @@ import media from 'utils/media-queries';
 
 import GlobalWrapper from '../GlobalWrapper';
 import ArticleHeader from './header';
-import ContentWrapper from 'components/article/contentwrapper';
 import {Footer} from '../shared/Footer';
 
 const Section = styled.section`
@@ -14,14 +13,29 @@ const Section = styled.section`
   `}
 `;
 
+const ContentContainer = styled.div`
+  max-width: 728px;
+  margin-left: auto;
+  margin-right: auto;
+`;
+
+const ContentWrapper = styled.div`
+  padding: 56px 24px 26px 24px;
+  ${media.xs`
+  padding: 56px 16px 26px 16px;
+  `}
+`
+
 export const Article = (props) => {
   return (
     <GlobalWrapper>
       <ArticleHeader title={props.title} />
       <Section>
-        <ContentWrapper>
-          {props.children}
-        </ContentWrapper>
+        <ContentContainer>
+          <ContentWrapper>
+            {props.children}
+          </ContentWrapper>
+        </ContentContainer>
       </Section>
       <Footer />
     </GlobalWrapper>
