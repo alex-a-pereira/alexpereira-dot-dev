@@ -6,7 +6,7 @@ import media from 'utils/media-queries'
 import { color } from 'styles/theme'
 
 import Header from 'components/header'
-import Icon from 'components/icons'
+import {HeaderIcon} from '../shared/HeaderIcon'
 
 const TitleBar = styled.div``
 
@@ -42,7 +42,7 @@ function ArticleHeader(props) {
       <Header article />
       <TitleBar>
         <BackArrow to="/#projects">
-          <Icon glyph="arrow" size={64} />
+          <HeaderIcon glyph="arrow" size={64} />
         </BackArrow>
         <Title>
           <h1>{props.title}</h1>
