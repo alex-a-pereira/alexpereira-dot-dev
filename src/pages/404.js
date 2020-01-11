@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import Link from 'gatsby-link'
-import GlobalWrapper from '../components/GlobalWrapper'
+import GlobalWrapper from '../components/shared/GlobalWrapper'
 
 const Div = styled.div`
   margin: 24px;

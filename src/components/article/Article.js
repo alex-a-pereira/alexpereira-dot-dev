@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import media from 'utils/media-queries';
 
-import GlobalWrapper from '../GlobalWrapper';
+import GlobalWrapper from '../shared/GlobalWrapper';
 import ArticleHeader from './ArticleHeader';
 import {Footer} from '../shared/Footer';
 
