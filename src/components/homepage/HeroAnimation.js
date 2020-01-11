@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import media from 'utils/media-queries'
 
-import Header from 'components/header'
+import Header from './header'
 import Spirograph from './Spirograph'
 
 const HeroSection = styled.section`

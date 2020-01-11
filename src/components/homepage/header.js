@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
 
-import {HeaderIcon} from './shared/HeaderIcon'
+import {HeaderIcon} from '../shared/HeaderIcon'
 
 import {FaGithub} from 'react-icons/fa'
 import {FaLinkedinIn} from 'react-icons/fa'

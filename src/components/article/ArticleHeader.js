@@ -5,7 +5,7 @@ import media from 'utils/media-queries'
 
 import { color } from 'styles/theme'
 
-import Header from 'components/header'
+import Header from '../homepage/header'
 import {HeaderIcon} from '../shared/HeaderIcon'
 
 const TitleBar = styled.div``
