@@ -4,7 +4,7 @@ import GlobalStyle from 'styles/global-style'
 
 import { StaticQuery, graphql } from "gatsby"
 
-class GlobalWrapper extends React.Component {
+export default class GlobalWrapper extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -77,5 +77,3 @@ class GlobalWrapper extends React.Component {
     )
   }
 }
-
-export default GlobalWrapper

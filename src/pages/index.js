@@ -1,6 +1,6 @@
 import React from 'react'
 
-import GlobalWrapper from 'components/global-wrapper'
+import GlobalWrapper from '../components/GlobalWrapper'
 import Hero from 'components/hero'
 import {Section} from '../components/section'
 import {About} from '../components/sections/About'
