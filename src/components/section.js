@@ -4,7 +4,7 @@ import media from 'utils/media-queries'
 
 import { color } from 'styles/theme'
 
-const Section = styled.section`
+const SectionContainer = styled.section`
   margin: 0 96px;
   ${media.lg`
     margin: 0 64px;
@@ -14,9 +14,9 @@ const Section = styled.section`
   `}
   display: flex;
   justify-content: center;
-`
+`;
 
-const Container = styled.div`
+const SectionContentContainer = styled.div`
   border-top: 1px solid ${color.grey400};
   max-width: 916px;
   padding: 100px 0;
@@ -24,14 +24,12 @@ const Container = styled.div`
     padding: 64px 0;
   `}
   width: 100%;
-`
+`;
 
-function SectionComponent(props) {
+export const Section = (props) => {
   return (
-    <Section id={props.id}>
-      <Container>{props.children}</Container>
-    </Section>
+    <SectionContainer id={props.id}>
+      <SectionContentContainer>{props.children}</SectionContentContainer>
+    </SectionContainer>
   )
-}
-
-export default SectionComponent
+};

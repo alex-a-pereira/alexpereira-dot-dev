@@ -2,13 +2,12 @@ import React from 'react'
 
 import GlobalWrapper from 'components/global-wrapper'
 import Hero from 'components/hero'
-import Section from 'components/section'
-import About from 'components/about'
-import Projects from '../components/projects'
-import Education from 'components/education'
-// import Writing from 'components/writing'
+import {Section} from '../components/section'
+import About from '../components/sections/about'
+import Projects from '../components/sections/projects'
+import Education from '../components/sections/education'
 import Footer from 'components/footer'
-import Career from '../components/career';
+import Career from '../components/sections/career';
 
 export default class App extends React.Component {
   render() {
@@ -19,8 +18,7 @@ export default class App extends React.Component {
         <Section id={'career'}><Career /></Section>
         <Section id={'projects'}><Projects /></Section>
         <Section id={'education'}><Education /></Section>
-        {/* <Section><Writing /></Section> */}
-        <Footer />
+        <Section id={'footer'}><Footer /></Section>
       </GlobalWrapper>
     )
   }

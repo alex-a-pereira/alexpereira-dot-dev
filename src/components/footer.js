@@ -4,7 +4,6 @@ import media from 'utils/media-queries'
 
 import { fontSize } from 'styles/theme'
 
-import Section from 'components/section'
 
 const FooterText = styled.div`
   text-align: center;
@@ -17,7 +16,7 @@ const FooterText = styled.div`
 
 function Footer() {
   return (
-    <Section>
+    <div>
       <FooterText>
         Alex Pereira - Software Engineer
       </FooterText>
@@ -25,7 +24,7 @@ function Footer() {
       <FooterText>
         This open source project was forked from <a href="https://github.com/gabdorf/gabriel-adorf-portfolio">Gabriel Adorf</a>
       </FooterText>
-    </Section>
+    </div>
   )
 }
 

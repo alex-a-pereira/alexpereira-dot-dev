@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
-import { ContentRow } from './ContentRow'
+import { ContentRow } from '../ContentRow'
 
 import umlLogo from 'img/logos/uml.png'
 import nccLogo from 'img/logos/ncc.png'
