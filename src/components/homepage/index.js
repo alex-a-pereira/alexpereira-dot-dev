@@ -1,7 +1,7 @@
 import React from 'react'
 
 import GlobalWrapper from '../shared/GlobalWrapper'
-import Hero from '../hero'
+import {HeroAnimation} from './HeroAnimation'
 
 import {Section} from '../section'
 
@@ -15,7 +15,7 @@ import {Footer} from '../shared/Footer'
 export const IndexPage = () => {
   return (
     <GlobalWrapper>
-      <Hero />
+      <HeroAnimation />
       <Section id={'about'}><About /></Section>
       <Section id={'career'}><Career /></Section>
       <Section id={'projects'}><Projects /></Section>
