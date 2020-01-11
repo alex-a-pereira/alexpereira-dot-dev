@@ -5,10 +5,10 @@ import {HeroAnimation} from './HeroAnimation'
 
 import {Section} from '../section'
 
-import {About} from '../sections/About'
-import {Projects} from '../sections/Projects'
-import {Education} from '../sections/Education'
-import {Career} from '../sections/Career';
+import {About} from './sections/About'
+import {Projects} from './sections/Projects'
+import {Education} from './sections/Education'
+import {Career} from './sections/Career';
 
 import {Footer} from '../shared/Footer'
 

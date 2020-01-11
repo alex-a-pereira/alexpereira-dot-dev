@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
-import { ContentRow } from 'components/ContentRow'
+import { ContentRow } from '../ContentRow'
 
 import minimLogo from 'img/logos/minim.png'
 

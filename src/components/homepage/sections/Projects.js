@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
-import { ContentRow } from 'components/ContentRow'
+import { ContentRow } from '../ContentRow'
 
 import hpLogo from 'img/logos/hp.png'
 import vpinLogo from 'img/logos/vpin.png'
