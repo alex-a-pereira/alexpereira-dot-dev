@@ -5,7 +5,7 @@ import media from 'utils/media-queries'
 import GlobalWrapper from '../components/GlobalWrapper'
 import Header from 'components/article/header'
 import ContentWrapper from 'components/article/contentwrapper'
-import Footer from 'components/footer'
+import { Footer } from '../components/shared/Footer'
 
 const Section = styled.section`
   margin: 64px 0;

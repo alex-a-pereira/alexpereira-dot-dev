@@ -4,7 +4,6 @@ import media from 'utils/media-queries'
 
 import { fontSize } from 'styles/theme'
 
-
 const FooterText = styled.div`
   text-align: center;
   font-size: ${fontSize.f2};
@@ -12,9 +11,9 @@ const FooterText = styled.div`
     text-align: left;
     font-size: ${fontSize.f1};
   `}
-`
+`;
 
-function Footer() {
+export const Footer = () => {
   return (
     <div>
       <FooterText>
@@ -26,6 +25,4 @@ function Footer() {
       </FooterText>
     </div>
   )
-}
-
-export default Footer
+};
