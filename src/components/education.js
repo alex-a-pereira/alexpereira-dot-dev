@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import TwoColumns from 'components/twoColumns'
 import SectionHeading from 'components/sectionHeading'
-import Project from 'components/project'
+import { ContentRow } from './ContentRow'
 
 import umlLogo from 'img/logos/uml.png'
 import nccLogo from 'img/logos/ncc.png'
@@ -14,12 +14,12 @@ function Education() {
       leftColumn={<SectionHeading>Education</SectionHeading>}
       rightColumn={
         <Fragment>
-          <Project
+          <ContentRow
             title="UMass Lowell"
             abstract="Bachelor of Science in Finance - Computer Science Minor"
             imgSrc={umlLogo}
           />
-          <Project
+          <ContentRow
             title="Nashua Community College"
             abstract="Associate of Science in General Studies"
             imgSrc={nccLogo}

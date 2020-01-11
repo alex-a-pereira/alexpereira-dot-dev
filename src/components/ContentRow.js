@@ -12,14 +12,14 @@ const ImageContainer = styled.div`
   ${media.sm`
     margin-right: 30px;
   `}
-`
+`;
 
 const SmallImage = styled.img`
   width: 80px;
   height: auto;
-`
+`;
 
-const ProjectLogo = (props) => {
+const ContentLogo = (props) => {
   return (
     <ImageContainer>
       <SmallImage 
@@ -29,7 +29,7 @@ const ProjectLogo = (props) => {
   )
 }
 
-const ProjectWrapper = styled.div`
+const ContentContainer = styled.div`
   margin-bottom: 68px;
   display: flex;
   justify-content: center;
@@ -43,7 +43,7 @@ const ProjectWrapper = styled.div`
   `}
 `
 
-const Description = styled.div`
+const DescriptionContainer = styled.div`
   width: 100%;
   @media (max-width: 660px) {
     margin-top: 32px;
@@ -63,17 +63,15 @@ const Abstract = styled.div`
   margin-bottom: 16px;
 `
 
-function Project(props) {
+export const ContentRow = (props) => {
   return (
-    <ProjectWrapper>
-      <ProjectLogo src={props.imgSrc} />
-      <Description>
+    <ContentContainer>
+      <ContentLogo src={props.imgSrc} />
+      <DescriptionContainer>
         <Title>{props.title}</Title>
         <Abstract>{props.abstract}</Abstract>
         {props.link}
-      </Description>
-    </ProjectWrapper>
+      </DescriptionContainer>
+    </ContentContainer>
   )
-}
-
-export default Project
+};

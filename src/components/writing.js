@@ -1,7 +1,7 @@
 import React from 'react'
 
 import TwoColumns from 'components/twoColumns'
-import Project from 'components/project'
+import { ContentRow } from './ContentRow'
 import SectionHeading from 'components/sectionHeading'
 
 const ScenographicsLink = (
@@ -14,7 +14,7 @@ function Writing() {
       wide
       leftColumn={<SectionHeading>Writing</SectionHeading>}
       rightColumn={
-        <Project
+        <ContentRow
           title="Scenographics"
           abstract="Interview series with creative people within the festival scene. (German only)"
           link={ScenographicsLink}
