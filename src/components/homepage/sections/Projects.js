@@ -2,7 +2,6 @@ import React, { Fragment } from 'react'
 import Link from 'gatsby-link'
 
 import TwoColumns from 'components/twoColumns'
-import SectionHeading from 'components/sectionHeading'
 import { ContentRow } from '../ContentRow'
 
 import hpLogo from 'img/logos/hp.png'
@@ -13,7 +12,7 @@ export const Projects = () => {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Projects</SectionHeading>}
+      headingText="Projects"
       rightColumn={
         <Fragment>
           <ContentRow 

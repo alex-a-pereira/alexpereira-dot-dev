@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import TwoColumns from 'components/twoColumns'
-import SectionHeading from 'components/sectionHeading'
 import { ContentRow } from '../ContentRow'
 
 import minimLogo from 'img/logos/minim.png'
@@ -10,7 +9,7 @@ export const Career = () => {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Career</SectionHeading>}
+      headingText="Career"
       rightColumn={
         <Fragment>
           <ContentRow

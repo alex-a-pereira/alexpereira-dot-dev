@@ -5,7 +5,6 @@ import media from 'utils/media-queries'
 import { color, fontSize } from 'styles/theme'
 
 import TwoColumns from 'components/twoColumns'
-import SectionHeading from 'components/sectionHeading'
 
 const Big = styled.span`
   font-size: ${fontSize.f6};
@@ -19,7 +18,7 @@ const Big = styled.span`
 export const About = () => {
   return (
     <TwoColumns
-      leftColumn={<SectionHeading>About</SectionHeading>}
+      headingText="About"
       rightColumn={
         <Fragment>
           <Big>

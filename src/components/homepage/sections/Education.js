@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react'
 
 import TwoColumns from 'components/twoColumns'
-import SectionHeading from 'components/sectionHeading'
 import { ContentRow } from '../ContentRow'
 
 import umlLogo from 'img/logos/uml.png'
@@ -11,7 +10,7 @@ export const Education = () => {
   return (
     <TwoColumns
       wide
-      leftColumn={<SectionHeading>Education</SectionHeading>}
+      headingText="Education"
       rightColumn={
         <Fragment>
           <ContentRow
